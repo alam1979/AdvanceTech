@@ -1,32 +1,51 @@
 package com.collectionClass;
 
-import java.util.ArrayList;
 import java.util.List;
-import org.junit.Test;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import junit.framework.Assert;
-
-
-        public class testingYahoo {
-        	
-        public static void main(String[] args) {
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.annotations.Test;
+       public class testingYahoo {
 				
 			
-        	/*    WebDriver driver;
+        WebDriver driver;
 	    @Test
-	        public void funwithYahooPage () throws InterruptedException {
-		WebDriver driver = new FirefoxDriver ();
+	    public void funwithYahooPage () {
+		//WebDriver driver = new FirefoxDriver ();
+	    	
+	    //System.setProperty("webdriver.gecko.driver", "./DriverBrowser/geckodriver.exe");
+		//driver = new FirefoxDriver(); //create chrome instance
+		
+		//System.setProperty("webdriver.chrome.driver","./DriverBrowser/chromedriver.exe");
+		//driver = new ChromeDriver();
+		
+	    	System.setProperty("webdriver.ie.driver","./DriverBrowser/IEDriverServer.exe");
+			//create Edge instance
+	    	WebDriver driver = new InternetExplorerDriver();
+		
+		//System.setProperty("webdriver.edge.driver","./DriverBrowser/MicrosoftWebDriver.exe");
+		//WebDriver driver = new EdgeDriver();
+        
+		
 		driver.get("http://www.yahoo.com");
 		driver.findElement(By.xpath(".//*[@id='uh-logo']"));
 		driver.manage().window().maximize();
+		
+		List<WebElement> listimages = driver.findElements(By.tagName("img"));
+		System.out.println("no of images on page:"+ listimages.size());}}
+		
+		
+		
 
-      /*  List<WebElement> ar = driver.findElements(By.linkText("data-rapid_p"));
+ /*       List<WebElement> ar = driver.findElements(By.linkText("data-rapid_p"));
 		System.out.println(ar.toString());
 	    for(int i = 0; i<ar.size(); i++) {
-	    System.out.println(ar.get(i));*/
+	    System.out.println(ar.get(i));}}}*/
 	
 	/*	driver.findElement(By.xpath(".//*[@id='uh-search-box']")).sendKeys("Nutrition");
 		driver.findElement(By.xpath(".//*[@id='uh-search-button']")).click();
@@ -37,7 +56,7 @@ import junit.framework.Assert;
 		System.out.println("no of images on page:"+ listimages.size());
 		*/
 		
-		ArrayList<String> ar=new ArrayList <String>();
+/*		ArrayList<String> ar=new ArrayList <String>();
 		ar.add("1");
 		ar.add("2");
 		ar.add("3");
@@ -51,7 +70,7 @@ import junit.framework.Assert;
 	    System.out.println(ar.get(i));
 		
 	    }}}
-		 
+		 */
 /*		 
 		 
 		 driver.findElement(By.xpath(".//*[@id='yucs-login_signIn']")).click();

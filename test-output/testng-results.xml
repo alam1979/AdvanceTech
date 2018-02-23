@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27856" started-at="2018-02-11T19:33:33Z" finished-at="2018-02-11T19:34:01Z">
+  <suite name="Default suite" duration-ms="14723" started-at="2018-02-23T01:32:29Z" finished-at="2018-02-23T01:32:43Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27856" started-at="2018-02-11T19:33:33Z" finished-at="2018-02-11T19:34:01Z">
-      <class name="testNGclass.HandleMultipleWindowsOrTab">
-        <test-method status="PASS" signature="TestPopUp()[pri:0, instance:testNGclass.HandleMultipleWindowsOrTab@7f416310]" name="TestPopUp" duration-ms="27826" started-at="2018-02-11T14:33:33Z" finished-at="2018-02-11T14:34:01Z">
+    <test name="Default test" duration-ms="14723" started-at="2018-02-23T01:32:29Z" finished-at="2018-02-23T01:32:43Z">
+      <class name="testNGclass.ScreanshortTest">
+        <test-method status="PASS" signature="captureScreenshort()[pri:0, instance:testNGclass.ScreanshortTest@2638011]" name="captureScreenshort" duration-ms="14692" started-at="2018-02-22T20:32:29Z" finished-at="2018-02-22T20:32:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestPopUp -->
-      </class> <!-- testNGclass.HandleMultipleWindowsOrTab -->
+        </test-method> <!-- captureScreenshort -->
+      </class> <!-- testNGclass.ScreanshortTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

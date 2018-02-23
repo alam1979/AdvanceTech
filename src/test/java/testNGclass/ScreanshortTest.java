@@ -23,8 +23,11 @@ public class ScreanshortTest {
   driver.findElement(By.xpath(".//*[@id='email']")).sendKeys("rtjhur");
   
   TakesScreenshot ts  =  (TakesScreenshot) driver;
+  
   File source = ts.getScreenshotAs(OutputType.FILE);  // this line has a Exception
+  
   FileUtils.copyFile(source, new File("./Screenshort/facebook.png"));
+  
   System.out.println("Screenshort taken");
   driver.quit();
   }}

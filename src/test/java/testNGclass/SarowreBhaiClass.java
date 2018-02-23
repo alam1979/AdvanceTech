@@ -2,7 +2,7 @@ package testNGclass;
 
 import java.util.ArrayList;
 
-public class Anmfvjhdfvs {
+public class SarowreBhaiClass {
 	    public static void main(String[] args) {
 		int maxsalary = 5000;
 		ArrayList<Integer> salary = new ArrayList<Integer>();
@@ -17,7 +17,7 @@ public class Anmfvjhdfvs {
 			
 	    System.out.println(salary.get(i));
 		if (maxsalary == salary.get(i)) {
-		//System.out.println(salary.get(i));
+		System.out.println(salary.get(i));
 		}}}}
 
 	
