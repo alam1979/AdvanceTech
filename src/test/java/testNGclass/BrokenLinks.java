@@ -19,16 +19,11 @@ public class BrokenLinks {
 		driver.get("http://www.google.co.in/");
 		
 		List<WebElement> links=driver.findElements(By.tagName("a"));
-		
 		System.out.println("Total links are "+links.size());
-		
 		for(int i=0;i<links.size();i++) {
-			
-			WebElement ele= links.get(i);
-			
-			String url=ele.getAttribute("href");
-			
-			verifyLinkActive(url); }}
+		WebElement ele= links.get(i);
+		String url=ele.getAttribute("href");
+		verifyLinkActive(url); }}
 	
 	public static void verifyLinkActive(String linkUrl)
 	{
