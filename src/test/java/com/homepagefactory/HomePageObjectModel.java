@@ -14,29 +14,26 @@ public class HomePageObjectModel {
 	private String homePageTitleText = "Log in | UPS";
 
 	public HomePageObjectModel(WebDriver driver) {
-
-		this.driver = driver;
+    this.driver = driver;
 
 	}
 
 	public By getHomePageloginBtn() {
-		return homePageloginBtn;
+	return homePageloginBtn;
 	}
 
 	public By getUserName() {
-		return UserName;
+	return UserName;
 	}
 
 	public By getPassword() {
-		return password;
+	return password;
 	}
 
 	public By getLogin() {
-		return login;
+	return login;
 	}
 
 	public String getHomePageTitleText() {
-		return homePageTitleText;
-	}
-
-}
+	return homePageTitleText;
+	}}

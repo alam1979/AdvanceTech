@@ -15,8 +15,8 @@ public class ScreanshortTest {
   
   @Test
   public void captureScreenshort() throws Exception {
-		System.setProperty("webdriver.gecko.driver", "C:\\Users\\alamm\\git\\My.project\\DriverBrowser\\geckodriver.exe");
-		WebDriver driver = new FirefoxDriver();
+  System.setProperty("webdriver.gecko.driver", "C:\\Users\\alamm\\git\\My.project\\DriverBrowser\\geckodriver.exe");
+  WebDriver driver = new FirefoxDriver();
 
   driver.get("https://www.facebook.com/");
   driver.manage().window().maximize();

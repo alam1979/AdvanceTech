@@ -13,14 +13,14 @@ import org.openqa.selenium.support.PageFactory;
 	public HomePageFactory( WebDriver driver){
 	this.driver = driver;
 	PageFactory.initElements(driver, this);
-}
+    }
 
   @FindBy(how = How.XPATH, using = "/html/body/div/table/tbody/tr/td[2]/table/tbody/tr[2]/td/table/tbody/tr/td[2]/a")
   @CacheLookup
   WebElement register_link;
   public WebElement getHomePageTitleText() {
   return register_link;
-}
+  }
   
   @FindBy(how = How.XPATH, using = "//*[@id=\"email\"]")
   @CacheLookup

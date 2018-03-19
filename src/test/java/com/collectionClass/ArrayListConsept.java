@@ -14,6 +14,18 @@ public class ArrayListConsept {
 		// 2. Maintain insertion order
 		// 3. synchronization
 		// 4. Allows random access to fetch the element because it stores the values on the basis of index
+		
+		
+		
+		
+		 //Hash map is an implements map interface
+		   //Extends Abstract Map
+		   //It contains only unique elements
+		   //Store the values key value pair
+		   //It may have one null key and multiple null values
+		   //It maintains no order
+		   //Hash is non-synchronized – not thread safe
+		   //Concurrent modification exception – fail – fast condition 
 		 
 		 ArrayList ar = new ArrayList();
 		 ar.add(10); // 0

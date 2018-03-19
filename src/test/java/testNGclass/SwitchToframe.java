@@ -28,8 +28,7 @@ public static void main(String[] args) throws  InterruptedException{
 	    // then Login bottun work as well
 	    driver.findElement(By.xpath(".//*[@id='loginForm']/div/div/input")).click();
 	    
-	  
-	    Thread.sleep(5000);
+	     Thread.sleep(5000);
 	    driver.quit();
 
 
