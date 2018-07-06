@@ -5,6 +5,7 @@ import java.util.Iterator;
 import java.util.Set;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
  
@@ -13,7 +14,9 @@ public class HandleMultipleWindowsOrTab  {
 @Test
 public void TestPopUp() throws InterruptedException{
 // Open browser
-WebDriver driver=new FirefoxDriver();
+	System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
+	WebDriver driver = new ChromeDriver();
+//WebDriver driver=new FirefoxDriver();
 driver.manage().window().maximize();
 driver.get("http://www.naukri.com/");
 // It will return the parent window name as a String

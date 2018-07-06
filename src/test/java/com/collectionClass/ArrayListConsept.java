@@ -118,6 +118,9 @@ public class ArrayListConsept {
 		ar7.add("selenium");
 		ar7.add("QTP");
 		
+		
+		
+		
 		ArrayList<String> ar8 = new ArrayList<String>();
 		ar8.add("test");
 		ar8.add("java");

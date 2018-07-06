@@ -3,11 +3,11 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.collectionClass.testingYahoo">
+      <class name="com.card.Deck.Amazon">
         <methods>
-          <include name="funwithYahooPage"/>
+          <include name="amazonMouseHover"/>
         </methods>
-      </class> <!-- com.collectionClass.testingYahoo -->
+      </class> <!-- com.card.Deck.Amazon -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,7 +1,4 @@
 package testNGclass;
-
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.CapabilityType;
@@ -14,7 +11,7 @@ public class Certificate {
 	public void CokisOf () {
 		
      // Create object of DesiredCapabilities class
-     DesiredCapabilities cap=DesiredCapabilities.chrome();
+     DesiredCapabilities cap = DesiredCapabilities.chrome();
  
     // Set ACCEPT_SSL_CERTS  variable to true
     cap.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
@@ -27,4 +24,4 @@ public class Certificate {
     driver.get("http://www.softwaretestinghelp.com/qa-interview-questions/");
     driver.manage().window().maximize();
  
-}}
+    }}

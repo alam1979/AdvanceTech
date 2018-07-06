@@ -14,6 +14,7 @@ import org.testng.annotations.Test;
 	   //Hash is non-synchronized – not thread safe
 	   //Concurrent modification exception – fail – fast condition 
 
+    	   
 	    @Test
 	    public void HashMaps() {
 		HashMap	<Integer, String> hr = new HashMap	<Integer, String>();
@@ -29,7 +30,6 @@ import org.testng.annotations.Test;
 		//Loop for all velues
 		for(Entry m : hr.entrySet()) {
 		System.out.println(m.getKey()+ ""+ m.getValue());
-		
 		}
 		System.out.println(hr);
 		hr.remove(3);

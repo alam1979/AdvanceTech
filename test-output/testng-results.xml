@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="40" started-at="2018-03-01T00:07:16Z" finished-at="2018-03-01T00:07:16Z">
+  <suite name="Default suite" duration-ms="28068" started-at="2018-07-05T18:57:56Z" finished-at="2018-07-05T18:58:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="40" started-at="2018-03-01T00:07:16Z" finished-at="2018-03-01T00:07:16Z">
-      <class name="com.collectionClass.HashMapClass">
-        <test-method status="PASS" signature="HashMaps()[pri:0, instance:com.collectionClass.HashMapClass@15b3e5b]" name="HashMaps" duration-ms="14" started-at="2018-02-28T19:07:16Z" finished-at="2018-02-28T19:07:16Z">
+    <test name="Default test" duration-ms="28068" started-at="2018-07-05T18:57:56Z" finished-at="2018-07-05T18:58:24Z">
+      <class name="com.card.Deck.Disney">
+        <test-method status="PASS" signature="DisneyWorldClass()[pri:0, instance:com.card.Deck.Disney@aecb35a]" name="DisneyWorldClass" duration-ms="27933" started-at="2018-07-05T14:57:56Z" finished-at="2018-07-05T14:58:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- HashMaps -->
-      </class> <!-- com.collectionClass.HashMapClass -->
+        </test-method> <!-- DisneyWorldClass -->
+      </class> <!-- com.card.Deck.Disney -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
